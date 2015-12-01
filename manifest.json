@@ -17,6 +17,6 @@
       "description": "Create a reactigif."
     }
   },
-  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+  "icons": { "128": "icons/icon-128.png", "16": "icons/icon-16.png" },
   "permissions": [ "videoCapture", "clipboardWrite" ]
 }
