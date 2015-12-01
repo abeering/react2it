@@ -1,0 +1,22 @@
+{
+  "name": "Reactigif",
+  "description": "Quickly record reaction gifs through your webcam.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "commands": {
+    "take-reactigif": {
+      "suggested_key": {
+        "default": "Ctrl+Y",
+        "mac": "Command+Y" 
+      },
+      "description": "Create a reactigif."
+    }
+  },
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" },
+  "permissions": [ "videoCapture", "clipboardWrite" ]
+}

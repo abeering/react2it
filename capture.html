@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/reactigif.css" />
+    <script type="text/javascript" src="js/gifshot.js"></script>
+    <script type="text/javascript" src="js/reactigif.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div id="timer" class="timer"></div>
+      <div style="display: none;" id="recording" class="recording">recording...</div>
+
+      <div style="display: none;" class="loading" id="loading">
+        <img src="images/spiral.gif" />
+      </div>
+
+      <div style="display:none;" class="finished" id="finished">
+        <div id="video-image">
+        </div>
+        <input type="text" class="image-url" id="image-url" readonly /><br />
+        <span class="saved">saved to clipboard!</span><br />
+        <div class="buttons">
+          <button id="redo-button" class="redo-button">Redo</button>
+          <button id="close-button" class="close-button">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
