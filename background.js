@@ -1,14 +1,14 @@
 chrome.app.runtime.onLaunched.addListener(function() {
-  openReactigif();
+  openReact2it();
 });
 
 chrome.commands.onCommand.addListener(function(command) {
-  if(command == 'take-reactigif'){
-    openReactigif();
+  if(command == 'take-react2it'){
+    openReact2it();
   }
 });
 
-function openReactigif(){
+function openReact2it(){
   chrome.app.window.create('capture.html', {
     'outerBounds': {
       'width': 300,

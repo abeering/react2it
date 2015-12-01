@@ -1,5 +1,5 @@
 {
-  "name": "Reactigif",
+  "name": "react2it",
   "description": "Quickly record reaction gifs through your webcam.",
   "version": "0.1",
   "manifest_version": 2,
@@ -9,7 +9,7 @@
     }
   },
   "commands": {
-    "take-reactigif": {
+    "take-react2it": {
       "suggested_key": {
         "default": "Ctrl+Y",
         "mac": "Command+Y" 
